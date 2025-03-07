@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pandas = "*"
+numpy = "*"
+dotenv = "*"
+pdfplumber = "*"
+tiktoken = "*"
+teams-ai = "*"
+json5 = "*"
+fitz = "*"
+mimetype = "*"
+openai = "*"
+pypdf2 = "*"
+pymupdf = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
